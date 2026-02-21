@@ -94,7 +94,7 @@ export function exercise6_TemporalLogic() {
 	// Also accepts invalid hours
 	const brokenRestaurant: Restaurant = {
 		name: "Broken Cafe",
-		operatingHours: OperatingHours.create(22, 5),
+		operatingHours: OperatingHours.create(22, -5),
 	}
 
 	logError(6, "Invalid hours accepted without validation", {
