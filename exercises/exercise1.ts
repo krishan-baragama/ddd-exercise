@@ -34,7 +34,7 @@ export function exercise1_PrimitivePrice() {
 	// Without domain types, price is just a number
 	type MenuItem = {
 		name: string
-		price: number // Could be negative! Could be a huge number!
+		price: Price // Could be negative! Could be a huge number!
 		quantity: number
 	}
 
